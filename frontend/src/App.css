@@ -1,0 +1,70 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.hero-body{
+    background: url('https://img.freepik.com/premium-photo/workout-gym-fitness-equipments-background-with-copy-space-text_916191-122062.jpg?ga=GA1.1.88706443.1744377097&semt=ais_hybrid&w=740');
+  background-size: cover;
+}
+.hero-section-bg-img{
+    background-image: url('https://images7.alphacoders.com/130/1300550.jpg');
+
+    background-size:cover;
+}
+.hero-section-one{
+    background-color: rgb(212, 212, 212,0.9);
+   
+}
+.section-three{
+    background-color: rgba(212, 212, 212, 0.9);
+}
+@media (max-width :600px){
+.hero-section-bg-img{
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+}
+.main-blog-body{
+    background: url('https://img.freepik.com/premium-photo/workout-gym-fitness-equipments-background-with-copy-space-text_916191-122062.jpg?ga=GA1.1.88706443.1744377097&semt=ais_hybrid&w=740');
+    background-size: cover;
+}
+.signin-body{
+    background: url('https://img.freepik.com/premium-photo/workout-gym-fitness-equipments-background-with-copy-space-text_916191-122062.jpg?ga=GA1.1.88706443.1744377097&semt=ais_hybrid&w=740');
+    background-size: cover;
+   min-height: 100vh;
+
+}
+.signin-form{
+    background-color: hsl(0, 0%, 100%,0.7);
+    backdrop-filter: blur(20px);
+}
+.Contect-body{
+    background: url('https://img.freepik.com/premium-photo/workout-gym-fitness-equipments-background-with-copy-space-text_916191-122062.jpg?ga=GA1.1.88706443.1744377097&semt=ais_hybrid&w=740');
+    background-size: cover;
+  }
+.contactUs-Form{
+    background-color: hsl(0, 0%, 100%,0.7);
+    backdrop-filter: blur(20px);
+}
+.about-page{
+    background-color: hsl(0, 0%, 100%,0.7);
+    backdrop-filter: blur(20px);
+}
+.about-body{
+    background: url('https://img.freepik.com/premium-photo/workout-gym-fitness-equipments-background-with-copy-space-text_916191-122062.jpg?ga=GA1.1.88706443.1744377097&semt=ais_hybrid&w=740');
+    background-size: cover;
+}
+.video-stream{
+    width: 553px; height: 311px; left: 0px; top: 36px;
+}
+.user-info-body{
+    background: url('https://img.freepik.com/premium-photo/workout-gym-fitness-equipments-background-with-copy-space-text_916191-122062.jpg?ga=GA1.1.88706443.1744377097&semt=ais_hybrid&w=740');
+    background-size: cover;
+    
+}
+.user-info{
+    background-color: hsl(0, 0%, 100%,0.7);
+    backdrop-filter: blur(20px);
+}
