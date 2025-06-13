@@ -28,7 +28,7 @@ const Footer = () => {
                         <div className="flex">
                             <div className="w-1/2 space-y-2">
                              <Link to="/about">  <p className="text-sm text-gray-300 cursor-pointer hover:text-white space-y-2">About Us</p></Link>
-                                <p className="text-sm text-gray-300 cursor-pointer hover:text-white">Membership</p>
+                              <Link to="/membership-form">  <p className="text-sm text-gray-300 cursor-pointer hover:text-white">Membership</p></Link>
                                 <p className="text-sm text-gray-300 cursor-pointer hover:text-white">Instructor</p>
                                 <p className="text-sm text-gray-300 cursor-pointer hover:text-white">Shop</p>
                                 <Link to="/blog"> <p className="text-sm text-gray-300 cursor-pointer hover:text-white">Blog Post</p></Link>

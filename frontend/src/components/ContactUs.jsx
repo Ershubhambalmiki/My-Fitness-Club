@@ -4,7 +4,7 @@ import Footer from './Footer';
 const contactUs = () => {
     return (
 
-        <div className="Contect-body py-5">
+        <div className="Contect-body pt-5">
             <div className='mb-5'>
                 <div className=" px-4 max-w-5xl lg:mx-auto mx-5  contactUs-Form rounded-xl py-5">
                     <div className="flex flex-col lg:flex-row px-3 lg:-px-8 gap-10">
@@ -12,7 +12,7 @@ const contactUs = () => {
 
                         {/* Form Section */}
                         <div className="lg:w-200 ">
-                        <h2 className="text-2xl font-semibold  ml-5 text-center mb-3 ">Contact Form</h2>
+                            <h2 className="text-2xl font-semibold  ml-5 text-center mb-3 ">Contact Form</h2>
                             <form>
                                 <div className="flex flex-col md:flex-row gap-4 mb-4">
                                     <div className="w-full">
@@ -63,10 +63,10 @@ const contactUs = () => {
                         <div className=' text-center hidden sm:block' >
                             <div className='contactus-logo'>
 
-                            <img src="./logo2.png" alt="" className=' w-60 h-20 justify-self-center mb-2' />
+                                <img src="./logo2.png" alt="" className=' w-60 h-20 justify-self-center mb-2' />
                             </div>
-                        
- 
+
+
                             <p className="mb-6 text-gray-600">
                                 Fill out the form below, and one of our friendly team members will get back to you shortly
                             </p>

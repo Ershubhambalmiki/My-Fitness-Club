@@ -9,8 +9,8 @@ const About = () => {
                     <div className="about-section1 mb-3 about-page rounded-xl lg:px-10 ">
 
                         <div className=" py-5 text-center">
-                            <h1 className="text-4xl font-extrabold">WE ARE GYM AND FITNESS</h1>
-                            <h2 className="text-2xl mt-2">More than just your average fitness retailer.</h2>
+                            <h1 className="text-3xl  font-extrabold">WE ARE GYM AND FITNESS</h1>
+                            <h2 className="text-md mt-2 text-gray-600">More than just your average fitness retailer.</h2>
                         </div>
 
 

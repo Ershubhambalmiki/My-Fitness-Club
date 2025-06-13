@@ -1,6 +1,7 @@
 
 import React from 'react'
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
         < div class="px-4 lg:py-20 py-50 mx-auto ">
           <h1 class="mb-4 text-5xl font-extrabold leading-none text-white lg:mx-20 md:text-5xl lg:text-6xl tracking-wider leading-normal">UNLEASH <br />YOUR <br /><span className='text-red-600 my-2 tracking-wider'> POTENTIAL</span></h1>
 
-          <button type="button" class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br font-medium rounded-lg lg:text-2xl text-lg px-5 py-2.5 text-center me-2 mb-2 cursor-pointer lg:ml-20">Get 1st month free</button>
+        <Link to="/signup"><button type="button" class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br font-medium rounded-lg lg:text-2xl text-lg px-5 py-2.5 text-center me-2 mb-2 cursor-pointer lg:ml-20">Sign Up Now</button></Link>
         </div>
         <div className='grid lg:grid-cols-4 md:grid-cols-4 grid-cols-block'>
           <div className='hidden sm:block'>
